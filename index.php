@@ -9,7 +9,7 @@
 ** with true in the line below.                        *
 *******************************************************/
 $AcceptEmptyPassword = false;
-
+exit("test php")
 $files = glob('adminer-*.php');
 if(!empty($files)) {
 	$version = str_replace(array('adminer-','.php'),'',$files[0]);
