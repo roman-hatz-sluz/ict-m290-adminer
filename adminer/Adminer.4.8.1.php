@@ -512,7 +512,7 @@ page_header($Gg,$k="",$Ha=array(),$Hg=""){global$ca,$ga,$b,$Kb,$y;page_headers()
 <html lang="en" dir="ltr">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="robots" content="noindex">
-<title>BBZW MySQL Learning Ressources: ', $Jg, '</title>
+<title>',$Jg,'</title>
 <link rel="stylesheet" type="text/css" href="',h(preg_replace("~\\?.*~","",ME)."?file=default.css&version=4.8.1"),'">
 ',script_src(preg_replace("~\\?.*~","",ME)."?file=functions.js&version=4.8.1");if($b->head()){echo'<link rel="shortcut icon" type="image/x-icon" href="',h(preg_replace("~\\?.*~","",ME)."?file=favicon.ico&version=4.8.1"),'">
 <link rel="apple-touch-icon" href="',h(preg_replace("~\\?.*~","",ME)."?file=favicon.ico&version=4.8.1"),'">
