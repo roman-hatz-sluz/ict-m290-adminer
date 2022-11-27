@@ -4421,6 +4421,8 @@ function page_footer($Td = "")
 		echo '<div  style="
 		position: absolute;
 		bottom: 0;
+		padding: 4px;
+		margin: 20px;
 		width: 100%;
 		background-color: #444444;
 		color: #ffffff;
