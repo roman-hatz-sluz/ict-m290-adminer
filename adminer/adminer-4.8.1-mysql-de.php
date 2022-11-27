@@ -4421,15 +4421,17 @@ function page_footer($Td = "")
 		echo '<div  style="
 		position: absolute;
 		bottom: 0;
+		left: calc((100vw - 700px) /2 );
 		padding: 4px;
-		margin: 20px;
-		width: 100%;
+		margin-bottom: 16px;
+		width: 700px;
 		background-color: #444444;
 		color: #ffffff;
 		text-align: center;
 	"> 
 			Lehrmittel ICT Berufsbildung Modul 290, 291 - 
-			c/o Roman Hatz, BBZW Sursee, 22/23
+			c/o Roman Hatz, BBZW Sursee, 22/23 - 
+			https://www.adminer.org/
 		
 	</div>';
 }
