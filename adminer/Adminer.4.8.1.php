@@ -2846,8 +2846,6 @@ var thousandsSeparator = \'', js_escape(','), '\';
 <div id="help" class="jush-', $y, ' jsonly hidden"></div>
 ', script("mixin(qs('#help'), {onmouseover: function () { helpOpen = 1; }, onmouseout: helpMouseout});"), '
 <div id="content">
-Lehrmittel ICT Berufsbildung - c/o Roman Hatz, BBZW Sursee, 22/23
-<br><br>
 ';
     if ($Ha !== null) {
         $A = substr(preg_replace('~\b(username|db|ns)=[^&]*&~', '', ME), 0, -1);
