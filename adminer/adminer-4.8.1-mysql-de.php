@@ -4419,13 +4419,14 @@ function page_footer($Td = "")
 ',
         script("setupSubmitHighlight(document);");
 		echo '<div  style="
-		position: relative;
-    padding: 4px;
-    width: auto;
-    margin: 24px;
-    background-color: #444444;
-    color: #ffffff;
-    text-align: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 4px;
+        background-color: #444444;
+        color: #ffffff;
+        text-align: center;
+        margin: 4px 0 12px 12px;
 	"> 
 			Lehrmittel ICT Berufsbildung Modul 290, 291 - 
 			c/o Roman Hatz, BBZW Sursee, 22/23 - 
