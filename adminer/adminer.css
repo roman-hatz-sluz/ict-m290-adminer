@@ -5,13 +5,20 @@ body{color:#000;background:#e3e3e3;font:90%/1.25 Verdana,Arial,Helvetica,sans-se
 /* **** Overwrites **** */
 
 /* Add Footer*/
+body {
+    margin: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
 body::after  {
     content: "adminer.org | Lehrmittel ICT Berufsbildung Modul 290, 291 - c/o Roman Hatz, BBZW Sursee, 23/24";
     background-color: #444;
     color: #fff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     text-align: center;
     width: 100%;
 }
