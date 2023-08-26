@@ -5,6 +5,9 @@ body{color:#000;background:#e3e3e3;font:90%/1.25 Verdana,Arial,Helvetica,sans-se
 /* **** Overwrites *****/
 
 /* Add Footer*/
+body {
+    padding-bottom: 24px;
+}
 body::after  {
     content: "https://www.adminer.org | https://github.com/roman-hatz-sluz/ict-m290-adminer";
     background-color: #444;
