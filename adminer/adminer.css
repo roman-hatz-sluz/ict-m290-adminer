@@ -9,21 +9,24 @@ p#breadcrumb {
 }
 
 
-.icon[name="add[1]"] {
-    visibility: hidden;
-    width: 32px;  /* adjust to your image's width */
-    height: 32px; /* adjust to your image's height */
-    position: relative; /* to position the pseudo-element correctly */
+/* Hide broken images */
+img:not(:valid) {
+    display: inline-block;
+    color: red; /* or any color you want for the alt text */
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 0;
+    font-family: Arial, sans-serif; /* or any font you prefer */
+    font-size: 16px; /* or any size you prefer */
 }
 
-.icon[name="add[1]"]::before {
-    content: '';
-    display: block;
-    width: 100%;
+/* Hide the broken image icon in some browsers */
+img:not(:valid)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
     height: 100%;
-    background-image: url('https://demo.adminer.org/adminer.php?file=plus.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
 }
