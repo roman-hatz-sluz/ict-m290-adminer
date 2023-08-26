@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 }
 body::after  {
-    content: "adminer.org | Lehrmittel ICT Berufsbildung Modul 290, 291 - c/o Roman Hatz, BBZW Sursee, 23/24";
+    content: "https://www.adminer.org | https://github.com/roman-hatz-sluz/ict-m290-adminer";
     background-color: #444;
     color: #fff;
     text-align: center;
