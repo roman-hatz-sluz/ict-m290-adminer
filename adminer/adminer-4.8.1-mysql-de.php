@@ -858,9 +858,6 @@ pagination($t,$F);if($Jd>0){echo($F+5<$Jd?" …":""),($ic&&$Dc!==false?paginatio
 checkbox("all",1,0,($Dc!==false?($ic?"":"~ ").lang(array('%d Datensatz','%d Datensätze'),$Dc):""),"var checked = formChecked(this, /check/); selectCount('selected', this.checked ? '$Ib' : checked); selectCount('selected2', this.checked || !checked ? '$Ib' : checked);")."\n","</fieldset>\n";if($b->selectCommandPrint()){echo'<fieldset',($_GET["modify"]?'':' class="jsonly"'),'><legend>Ändern</legend><div>
 <input type="submit" value="Speichern"',($_GET["modify"]?'':' title="'.'Ctrl+Klick zum Bearbeiten des Wertes.'.'"'),'>
 </div></fieldset>
-
-<script>alert("x");</script>
-
 <fieldset><legend>Ausgewählte <span id="selected"></span></legend><div>
 <input type="submit" name="edit" value="Bearbeiten">
 <input type="submit" name="clone" value="Klonen">

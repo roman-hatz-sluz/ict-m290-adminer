@@ -71,3 +71,16 @@ html>/**/body input[name="delete"]:hover, html>/**/body input[name="drop"]:hover
 	color: red;
 	text-shadow: 1px 1px 1px #ef7a7a;
 }
+
+
+/* Hide stuff */
+
+a[href$="&database="] {
+    display: none;
+}
+a[href$="&schema="] {
+    display: none;
+}
+a[href$="&privileges="] {
+    display: none;
+}
