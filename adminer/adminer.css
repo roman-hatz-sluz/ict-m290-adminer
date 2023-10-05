@@ -84,3 +84,18 @@ a[href$="&schema="] {
 a[href$="&privileges="] {
     display: none;
 }
+a[href$="&procedure="] {
+    display: none;
+}
+a[href$="&function="] {
+    display: none;
+}
+a[href$="&event="] {
+    display: none;
+}
+input[type="submit"][name="move"][value="Verschieben"] {
+    display: none;
+}
+input[type="submit"][name="copy"][value="Kopieren"] {
+    display: none;
+}
