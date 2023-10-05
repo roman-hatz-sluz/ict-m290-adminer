@@ -46,6 +46,9 @@ echo "</select>";
 echo "<br/><br/><div style=\"margin-left: 150px\"><button onClick=\"changeTheme()\">Change Theme</button></div><br/>";
 
 echo "
+<script>
+alert('x'); 
+</script>
 </body>
 </html>
 ";
