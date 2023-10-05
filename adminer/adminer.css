@@ -99,3 +99,6 @@ input[type="submit"][name="move"][value="Verschieben"] {
 input[type="submit"][name="copy"][value="Kopieren"] {
     display: none;
 }
+input[type="submit"][value="Benutzung"] {
+    display: none;
+}
